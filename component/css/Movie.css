@@ -1,0 +1,55 @@
+.oneMovieStyle {
+  width: 300px;
+  height: 600px;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+.oneMovieStyle p {
+  margin: 0;
+}
+#bold {
+  font-weight: bold;
+}
+.imageStyle {
+  width: 285px;
+  height: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.onemovieText {
+  width: 285px;
+  height: 120px;
+  border: 1px solid black;
+}
+.button {
+  background-color: orange;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+.button p {
+  font-size: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#b1 {
+  background-color: green;
+}
+
+#b2 {
+  background-color: red;
+}
+
+#b3 {
+  background-color: gray;
+}
