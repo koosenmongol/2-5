@@ -21,8 +21,8 @@ const Inputexample = () => {
   return (
     <div>
       <h1>Inputexample</h1>
-      {/* <h2>input number {inputnumber}</h2>
-      <h2>{randomnumber}</h2> */}
+      <h2>input number {inputnumber}</h2>
+      <h2>{randomnumber}</h2>
       <h2>{resulttext}</h2>
       <div style={{ display: "flex" }}>
         <input
