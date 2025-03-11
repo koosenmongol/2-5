@@ -1,3 +1,4 @@
+// Санасан тоо таах тоглоомын код
 import React, { useState } from "react";
 
 const Inputexample = () => {
