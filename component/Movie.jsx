@@ -5,10 +5,12 @@ import Review from "./Review";
 
 const Movie = () => {
   return (
-    <div>
-      <h1>Таньд санал болгох киноны жагсаалт</h1>
-      <p>Адал явдалт, тулаант</p>
-      <div className="container">
+    <div className="container">
+      <h1 style={{ textAlign: "center" }}>
+        Таньд санал болгох киноны жагсаалт
+      </h1>
+      <p style={{ textAlign: "center" }}>Адал явдалт, тулаант</p>
+      <div className="boxcontainer">
         {movieData.map((onemovie) => (
           <div className="oneMovieStyle">
             <img className="imageStyle" src={onemovie.image} alt="" />
