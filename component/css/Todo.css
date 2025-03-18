@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+
+  /* background-color: orange; */
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tasklist {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: start;
+}
+.tasklist p {
+  margin: 0px;
+  width: 500px;
+}
