@@ -5,7 +5,9 @@ const Review = () => {
 
   return (
     <div>
-      <p style={{ fontWeight: "bold" }}>Таалагдсан:{number}</p>
+      <p style={{ fontWeight: "bold", textAlign: "center" }}>
+        Таалагдсан:{number}
+      </p>
       <div className="buttonContainer">
         <button
           className="button"
