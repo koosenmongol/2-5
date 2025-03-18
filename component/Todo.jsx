@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/Todo.css";
 import { useState } from "react";
+import { RiCheckboxCircleFill } from "react-icons/ri";
+
 const Todo = () => {
   const [taskText, setTaskText] = useState("");
   const [task, setTask] = useState([]);
@@ -9,9 +11,7 @@ const Todo = () => {
     setTaskText(text);
   };
   const addTask = () => {
-    // handleInput();
     setTask((currenttask) => [...currenttask, taskText]);
-    console.log(task);
   };
   return (
     <div className="container">
@@ -22,7 +22,9 @@ const Todo = () => {
       </div>
       <div className="tasklist">
         {task.map((onetask) => (
-          <p>{onetask}</p>
+          <div className="onetask">
+            <RiCheckboxCircleFill /> <p>{onetask}</p>
+          </div>
         ))}
       </div>
     </div>
