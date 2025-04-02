@@ -5,12 +5,27 @@ const Yawts = () => {
   const samsung = data[0];
   const apple = data[1];
   const [selectedCategory, setSetselectedCategory] = useState(samsung);
-
+  const [cartItems, setCartItems] = useState([]);
+  const [isOpenCart, setIsOpenCart] = useState(true);
+  const handleCart = (phone) => {
+    setCartItems((currentcartItems) => [...currentcartItems, phone]);
+    console.log(cartItems);
+  };
+  const removeItem = (item) => {
+    let items = (currentcartItems) =>
+      currentcartItems.filter((phone) => phone.name !== item.name);
+    setCartItems(items);
+    setSetselectedCategory(items);
+  };
   return (
     <div className="container">
+      {/* Ангилал */}
       <div className="category">
         <button
-          onClick={() => setSetselectedCategory(samsung)}
+          onClick={() => {
+            setSetselectedCategory(samsung);
+            setIsOpenCart(true);
+          }}
           className="buttonStyle"
         >
           <p style={{ color: selectedCategory === samsung ? "red" : "black" }}>
@@ -18,7 +33,10 @@ const Yawts = () => {
           </p>
         </button>
         <button
-          onClick={() => setSetselectedCategory(apple)}
+          onClick={() => {
+            setSetselectedCategory(apple);
+            setIsOpenCart(true);
+          }}
           className="buttonStyle"
         >
           <p style={{ color: selectedCategory === apple ? "red" : "black" }}>
@@ -26,12 +44,32 @@ const Yawts = () => {
           </p>
         </button>
       </div>
+      {/* Бүтээгдэхүүн */}
       <div className="product">
         {selectedCategory.map((phone, index) => (
           <div className="oneProduct">
             <img src={phone.img} alt="" />
             <p>{phone.name}</p>
             <p id="price">{phone.price}</p>
+            {isOpenCart && (
+              <button onClick={() => handleCart(phone)}>Сагслах</button>
+            )}
+          </div>
+        ))}
+      </div>
+      {/* Сагс */}
+      <div className="cart">
+        <button
+          onClick={() => {
+            setSetselectedCategory(cartItems);
+            setIsOpenCart(false);
+          }}
+        >
+          Сагс
+        </button>
+        {cartItems.map((item, index) => (
+          <div>
+            <p onClick={() => removeItem(item)}>{item.name}</p>
           </div>
         ))}
       </div>

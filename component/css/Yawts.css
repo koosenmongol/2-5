@@ -3,12 +3,14 @@
 }
 .container {
   width: 100vw;
+  /* height: 100vh; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 30px;
   gap: 10px;
-  background-color: rgb(253, 249, 249);
+  /* background-color: rgb(176, 172, 172); */
+  /* background-color: orange; */
 }
 .category {
   flex: 1;
@@ -21,9 +23,12 @@
 }
 .product {
   flex: 4;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  /* background-color: orange; */
+  justify-content: center;
   gap: 10px;
 }
 .oneProduct {
@@ -32,6 +37,7 @@
   height: 500px;
   display: flex;
   flex-direction: column;
+
   padding: 10px;
 }
 .oneProduct img {
@@ -44,4 +50,13 @@
 .buttonStyle {
   border: none;
   background-color: white;
+}
+.cart {
+  flex: 1;
+  background: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
 }
