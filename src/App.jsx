@@ -5,6 +5,7 @@ import Inputexample from "../component/Inputexample";
 import Changebutton from "../component/Changebutton";
 import Todo from "../component/Todo";
 import Yawts from "../component/Yawts";
+import Tictac from "../component/Tictac";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <Yawts />
+        <Tictac />
       </div>
     </>
   );

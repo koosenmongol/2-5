@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Tictac {
+  width: 30vw;
+  height: 30vw;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 10vw;
+  height: 10vw;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.box p {
+  margin: 0;
+  color: white;
+  font-size: 5vw;
+  font-family: sans-serif;
+}
