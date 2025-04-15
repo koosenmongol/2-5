@@ -76,6 +76,10 @@ const Tictac = () => {
   };
   return (
     <div className="container">
+      <h2 style={{ textAlign: "left" }}>
+        Аль тоглогч хожсоныг гаргаж ирэх <br /> Хожсоны дараа дахиж дарагдахгүй
+        байх
+      </h2>
       {draw && <h1>Тэнцлээ</h1>}
       {winCheck && <h1>Хожлоо</h1>}
       {(winCheck || draw) && <button onClick={Resetgame}>Reset game</button>}
