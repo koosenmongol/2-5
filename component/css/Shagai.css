@@ -1,9 +1,21 @@
 .container {
   display: flex;
+
+  flex-direction: row;
+  background-color: rgb(244, 241, 241);
+}
+.left {
+  flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(244, 241, 241);
+}
+.right {
+  flex: 1;
+}
+.right img {
+  width: 700px;
 }
 .imageContainer {
   width: 500px;
