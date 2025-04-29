@@ -7,6 +7,7 @@ import Todo from "../component/Todo";
 import Yawts from "../component/Yawts";
 import Tictac from "../component/Tictac";
 import Shagai from "../component/Shagai";
+import Memo from "../component/Memo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <Shagai />
+        <Memo />
       </div>
     </>
   );
