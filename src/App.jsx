@@ -8,6 +8,7 @@ import Yawts from "../component/Yawts";
 import Tictac from "../component/Tictac";
 import Shagai from "../component/Shagai";
 import Memo from "../component/Memo";
+import PropsTest from "../component/PropsTest";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +16,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <Memo />
+        <PropsTest />
       </div>
     </>
   );
