@@ -3,6 +3,7 @@ import "./css/Movie.css";
 import { movieData } from "../data/Movie";
 import Review from "./Review";
 import Like_dislike from "./Like_dislike";
+import MovieItem from "./MovieItem";
 
 const Movie = () => {
   return (
@@ -14,11 +15,8 @@ const Movie = () => {
       <div className="boxcontainer">
         {movieData.map((onemovie, index) => (
           <div className="oneMovieStyle">
-            <img className="imageStyle" src={onemovie.image} alt="" />
-            <div className="onemovieText">
-              <p id="bold">{onemovie.name} </p>
-              <p>{onemovie.description}</p>
-            </div>
+            <MovieItem onemovie={onemovie} />
+            {/* <MovieItem img={onemovie.image} name={onemovie.name} desc={onemovie.description} */}
             <Like_dislike />
             <Review />
           </div>

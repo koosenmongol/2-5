@@ -1,12 +1,12 @@
 import React from "react";
 import "./css/Propstest.css";
-const CustomButton = (props) => {
+const CustomButton = ({ handle, page, text }) => {
   const customHandle = (number) => {
-    props.handle(number);
+    handle(number);
   };
   return (
-    <button onClick={() => customHandle(props.page)} className="buttonStyle">
-      {props.text}
+    <button onClick={() => customHandle(page)} className="buttonStyle">
+      {text}
     </button>
   );
 };

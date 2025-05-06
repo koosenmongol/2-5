@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        <PropsTest />
+      <div>
+        <Yawts />
       </div>
     </>
   );

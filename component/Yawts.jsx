@@ -18,7 +18,7 @@ const Yawts = () => {
     setSetselectedCategory(items);
   };
   return (
-    <div className="container">
+    <div className="containerBox">
       {/* Ангилал */}
       <div className="category">
         <button
@@ -49,10 +49,14 @@ const Yawts = () => {
         {selectedCategory.map((phone, index) => (
           <div className="oneProduct">
             <img src={phone.img} alt="" />
-            <p>{phone.name}</p>
-            <p id="price">{phone.price}</p>
+            <div>
+              <p>{phone.name}</p>
+              <p id="price">{phone.price}</p>
+            </div>
             {isOpenCart && (
-              <button onClick={() => handleCart(phone)}>Сагслах</button>
+              <button className="cartButton" onClick={() => handleCart(phone)}>
+                Сагслах
+              </button>
             )}
           </div>
         ))}
@@ -60,6 +64,7 @@ const Yawts = () => {
       {/* Сагс */}
       <div className="cart">
         <button
+          className="cartButton"
           onClick={() => {
             setSetselectedCategory(cartItems);
             setIsOpenCart(false);
