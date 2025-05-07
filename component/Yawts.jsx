@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { data } from "../data/yawts/yawtsdata";
+
 import "./css/Yawts.css";
 const Yawts = () => {
   const samsung = data[0];
