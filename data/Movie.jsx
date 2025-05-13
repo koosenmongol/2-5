@@ -5,7 +5,7 @@ import thorImg from "./images/thor.jpg";
 
 export const movieData = [
   {
-    image: avengersImage,
+    img: "https://en.wikipedia.org/wiki/Avengers_(Marvel_Cinematic_Universe)#/media/File:Avengers_team_in_The_Avengers_(2012_film).jpg",
     name: "The Avengers",
     description: "Superheroes team up to save the world.",
     directer: "Joss Whedon",
@@ -15,7 +15,7 @@ export const movieData = [
     year: "2012",
   },
   {
-    image: spidermanImg,
+    img: "https://en.wikipedia.org/wiki/Avengers_(Marvel_Cinematic_Universe)#/media/File:Avengers_team_in_The_Avengers_(2012_film).jpg",
     name: "Spider-Man: Into the Spider-Verse",
     description: "An animated adventure with multiple Spider-People.",
     directer: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
@@ -25,7 +25,7 @@ export const movieData = [
     year: "2018",
   },
   {
-    image: ironmanImg,
+    img: "https://en.wikipedia.org/wiki/Avengers_(Marvel_Cinematic_Universe)#/media/File:Avengers_team_in_The_Avengers_(2012_film).jpg",
     name: "Iron man 3",
     description:
       "Iron Man 3 is a 2013 American superhero film based on the Marvel Comics character Iron Man",
@@ -36,7 +36,7 @@ export const movieData = [
     year: "2013",
   },
   {
-    image: thorImg,
+    img: "https://en.wikipedia.org/wiki/Avengers_(Marvel_Cinematic_Universe)#/media/File:Avengers_team_in_The_Avengers_(2012_film).jpg",
     name: "Thor: Love and Thunder",
     description:
       "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
