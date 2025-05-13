@@ -9,6 +9,7 @@ import Tictac from "../component/Tictac";
 import Shagai from "../component/Shagai";
 import Memo from "../component/Memo";
 import PropsTest from "../component/PropsTest";
+import Flower from "../component/Flower";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <div>
-        <Movie />
+        <Flower />
       </div>
     </>
   );
