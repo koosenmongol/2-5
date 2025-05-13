@@ -1,6 +1,6 @@
 .oneMovieStyle {
   width: 300px;
-  height: 600px;
+  height: 650px;
   border: 1px solid rgb(244, 238, 238);
   padding: 5px;
   display: flex;
@@ -10,6 +10,7 @@
   box-shadow: -2px 6px 31px -6px rgba(0, 0, 0, 0.58);
   -webkit-box-shadow: -2px 6px 31px -6px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: -2px 6px 31px -6px rgba(0, 0, 0, 0.58);
+  cursor: pointer;
 }
 .oneMovieStyle p {
   margin: 0;
@@ -20,6 +21,7 @@
 .imageStyle {
   width: 285px;
   height: 400px;
+  border-radius: 10px;
 }
 .container {
   width: 100vw;
@@ -36,7 +38,7 @@
 }
 .onemovieText {
   width: 285px;
-  height: 120px;
+  height: 100px;
   /* border: 1px solid black; */
 }
 .button {
@@ -66,4 +68,28 @@
 
 #b3 {
   background-color: gray;
+}
+/* .desc {
+  height: 80px;
+} */
+.containerDetial {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+.Detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Detail span {
+  color: rgb(87, 153, 239);
+}
+.Detail span:hover {
+  text-decoration: underline;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div>
-        <Yawts />
+        <Movie />
       </div>
     </>
   );
