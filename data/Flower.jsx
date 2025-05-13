@@ -1,6 +1,6 @@
 export const flowerData = [
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tulip_-_floriade_canberra.jpg",
+    img: "https://plus.unsplash.com/premium_photo-1730009767392-54064b1aa4d4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHVsaXAlMjBjYW5iZXJyYXxlbnwwfHwwfHx8MA%3D%3D",
     name: "Tulip",
     description:
       "A bright, spring-blooming flower popular in gardens worldwide.",
@@ -11,7 +11,7 @@ export const flowerData = [
     year: "1594",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Narcissus_Flower.jpg",
+    img: "https://images.unsplash.com/photo-1585594751494-d36e27ab7eb6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TmFyY2lzc3VzJTIwRmxvd2VyfGVufDB8fDB8fHww",
     name: "Daffodil",
     description:
       "A cheerful yellow flower symbolizing new beginnings and rebirth.",
@@ -22,7 +22,7 @@ export const flowerData = [
     year: "300 BC",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Jasminum_sambac_%28Arabian_jasmine%29_flowers.jpg",
+    img: "https://plus.unsplash.com/premium_photo-1676068243733-df1880c2aef8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFzbWluZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
     name: "Jasmine",
     description:
       "A fragrant flower commonly used in teas, perfumes, and ceremonies.",
@@ -33,7 +33,7 @@ export const flowerData = [
     year: "1000 BC",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hibiscus_Rosa-sinensis_flower.jpg",
+    img: "https://images.unsplash.com/photo-1582305093504-f83d62014c59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGliaXNjdXMlMjBSb3NhJTIwc2luZW5zaXN8ZW58MHx8MHx8fDA%3D",
     name: "Hibiscus",
     description: "A tropical flower known for its large and vibrant blooms.",
     discoverer: "Georg Eberhard Rumphius",
@@ -43,7 +43,7 @@ export const flowerData = [
     year: "1700s",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/6/68/Lavandula_angustifolia_5.jpg",
+    img: "https://plus.unsplash.com/premium_photo-1673728254015-9a437bdb44aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TGF2YW5kdWxhJTIwYW5ndXN0aWZvbGlhfGVufDB8fDB8fHww",
     name: "Lavender",
     description: "A fragrant herbaceous flower with calming properties.",
     discoverer: "Ancient Greeks",
@@ -53,7 +53,7 @@ export const flowerData = [
     year: "Ancient times",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Snowdrop_flower_galanthus.jpg",
+    img: "https://images.unsplash.com/photo-1614196013304-9f51e2252687?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U25vd2Ryb3AlMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D",
     name: "Snowdrop",
     description: "One of the earliest flowers to bloom in late winter.",
     discoverer: "Carl Linnaeus",
@@ -63,7 +63,7 @@ export const flowerData = [
     year: "1753",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hyacinthoides_non-scripta_%28Common_Bluebell%29.jpg",
+    img: "https://images.unsplash.com/photo-1746451914849-ee80a0d32aba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SHlhY2ludGhvaWRlcyUyMG5vbiUyMHNjcmlwdGF8ZW58MHx8MHx8fDA%3D",
     name: "Bluebell",
     description: "A woodland flower forming beautiful blue carpets in spring.",
     discoverer: "William Turner",
@@ -73,7 +73,7 @@ export const flowerData = [
     year: "1500s",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Begonia_semperflorens.jpg",
+    img: "https://plus.unsplash.com/premium_photo-1667821537436-6950502e95a8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmVnb25pYSUyMHNlbXBhcnxlbnwwfHwwfHx8MA%3D%3D",
     name: "Begonia",
     description: "Colorful flower ideal for containers and hanging baskets.",
     discoverer: "Charles Plumier",
@@ -83,7 +83,7 @@ export const flowerData = [
     year: "1690",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/0/04/Strelitzia_reginae_flower2.jpg",
+    img: "https://images.unsplash.com/photo-1600860927886-003375c14fb3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RyZWxpdHppYSUyMCUyMHJlZ2luYWV8ZW58MHx8MHx8fDA%3D",
     name: "Bird of Paradise",
     description: "An exotic flower resembling a bird in flight.",
     discoverer: "Joseph Banks",
@@ -93,7 +93,7 @@ export const flowerData = [
     year: "1773",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anthurium_Andraeanum2.jpg",
+    img: "https://images.unsplash.com/photo-1685501423306-48d8d93ff93d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QW50aHVyaXVtJTIwQW5kcmFlYW51bSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
     name: "Anthurium",
     description: "A tropical flower known for its heart-shaped spathes.",
     discoverer: "Eduard André",
