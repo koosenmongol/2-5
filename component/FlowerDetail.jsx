@@ -6,6 +6,11 @@ import { flowerData } from "../data/Flower";
 const FlowerDetail = ({ index, back }) => {
   return (
     <div className="containerDetial">
+      <button className="button" onClick={back}>
+        {" "}
+        <FaArrowLeft />
+        Back
+      </button>
       <div style={{ display: "flex", alignItems: "center" }}>
         <p> {flowerData[index].discoverer}</p>
         <TbPointFilled size={10} />
@@ -25,11 +30,6 @@ const FlowerDetail = ({ index, back }) => {
           </h2>
         </div>
       </div>
-      <button className="button" onClick={back}>
-        {" "}
-        <FaArrowLeft />
-        Back
-      </button>
     </div>
   );
 };

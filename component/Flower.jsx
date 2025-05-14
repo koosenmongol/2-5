@@ -23,16 +23,18 @@ const Movie = () => {
       <h2 style={{ textAlign: "center" }}>Бүх төрөл</h2>
       {isNaN(selectedMovie) && (
         <div className="boxcontainer">
-          {flowerData.map((onemovie, index) => (
-            <div className="oneMovieStyle">
-              <FlowerItem
-                onemovie={onemovie}
-                onClick={() => handleMovie(index)}
-              />
-              <Like_dislike />
-              <Review />
-            </div>
-          ))}
+          <div className="Boxinner">
+            {flowerData.map((onemovie, index) => (
+              <div className="oneMovieStyle">
+                <FlowerItem
+                  onemovie={onemovie}
+                  onClick={() => handleMovie(index)}
+                />
+                <Like_dislike />
+                <Review />
+              </div>
+            ))}
+          </div>
         </div>
       )}
       {selectedMovie && <FlowerDetail index={movieIndex} back={backHandle} />}
