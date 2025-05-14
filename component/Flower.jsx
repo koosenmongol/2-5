@@ -1,13 +1,11 @@
 import React, { use, useState } from "react";
 import "./css/Movie.css";
-import { movieData } from "../data/Movie";
+import { flowerData } from "../data/Flower";
 import Review from "./Review";
 import Like_dislike from "./Like_dislike";
-import { flowerData } from "../data/Flower";
 import FlowerItem from "./FlowerItem";
 import FlowerDetail from "./FlowerDetail";
-
-const Flower = () => {
+const Movie = () => {
   const [selectedMovie, setSelectedMovie] = useState();
   const [movieIndex, setMovieIndex] = useState();
   const handleMovie = (index) => {
@@ -18,11 +16,11 @@ const Flower = () => {
     setSelectedMovie();
   };
   return (
-    <div className="container">
+    <div className="OutsideContainer">
       <h1 style={{ textAlign: "center" }}>
-        Таньд санал болгох киноны жагсаалт
+        Таньд санал болгох цэцэгний жагсаалт
       </h1>
-      <p style={{ textAlign: "center" }}>Адал явдалт, тулаант</p>
+      <h2 style={{ textAlign: "center" }}>Бүх төрөл</h2>
       {isNaN(selectedMovie) && (
         <div className="boxcontainer">
           {flowerData.map((onemovie, index) => (
@@ -31,7 +29,6 @@ const Flower = () => {
                 onemovie={onemovie}
                 onClick={() => handleMovie(index)}
               />
-              {/* <MovieItem img={onemovie.image} name={onemovie.name} desc={onemovie.description} */}
               <Like_dislike />
               <Review />
             </div>
@@ -43,4 +40,4 @@ const Flower = () => {
   );
 };
 
-export default Flower;
+export default Movie;

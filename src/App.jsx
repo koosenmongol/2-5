@@ -12,8 +12,6 @@ import PropsTest from "../component/PropsTest";
 import Flower from "../component/Flower";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>

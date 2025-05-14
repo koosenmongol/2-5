@@ -1,26 +1,27 @@
 import React from "react";
-import { movieData } from "../data/Movie";
+
 import { TbPointFilled } from "react-icons/tb";
 import { FaArrowLeft } from "react-icons/fa";
+import { flowerData } from "../data/Flower";
 const FlowerDetail = ({ index, back }) => {
   return (
     <div className="containerDetial">
       <div style={{ display: "flex", alignItems: "center" }}>
-        <p>{movieData[index].year} </p>
+        <p> {flowerData[index].discoverer}</p>
         <TbPointFilled size={10} />
-        <p> {movieData[index].time}</p>
+        <p>{flowerData[index].year} </p>
       </div>
       <div className="innerContainer">
-        <img className="imageStyle" src={movieData[index].image} alt="" />
+        <img className="imageStyle" src={flowerData[index].img} alt="" />
         <div className="Detail">
           <h1>
-            Directors: <span>{movieData[index].directer}</span>
+            Classifier: <span>{flowerData[index].classifier}</span>
           </h1>
           <h1>
-            Writers: <span>{movieData[index].writers}</span>
+            Bloom time: <span>{flowerData[index].bloomTime}</span>
           </h1>
           <h2>
-            IMDB rating: <span>{movieData[index].Rating}</span>
+            Rating: <span>{flowerData[index].rating}</span>
           </h2>
         </div>
       </div>

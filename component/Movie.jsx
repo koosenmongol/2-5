@@ -16,7 +16,7 @@ const Movie = () => {
     setSelectedMovie();
   };
   return (
-    <div className="container">
+    <div className="OutsideContainer">
       <h1 style={{ textAlign: "center" }}>
         Таньд санал болгох киноны жагсаалт
       </h1>
